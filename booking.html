@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum Mobile PT | Book a Session</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="booking.html" class="active">Book Now</a></li>
+      </ul>
+    </nav>
+
+    <header class="banner">
+      <h1>Book Your Session</h1>
+    </header>
+
+    <main>
+      <p>Please complete the intake form below to request an appointment. 
+      A therapist will contact you to confirm your preferred time and service.</p>
+
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+ 
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120" required>
+        <br></br>
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br></br>
+         
+        
+        <label for="reason">What brings you to Momentum Mobile PT?</label>
+        <textarea id="reason" name="reason" rows="2"></textarea>
+         <br></br>
+        <label for="service">Which service are you interested in?</label>
+        <select id="service" name="service">
+          <option value="">Select a service</option>
+          <option value="concierge">Concierge Physical Therapy</option>
+          <option value="workplace">Workplace Wellness Visit</option>
+          <option value="recovery">Recovery & Maintenance Plan</option>
+        </select>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      <img src="images/booking image.png"
+           alt="Laptop on a desk displaying an online booking form surrounded by warm neutral decor"
+           title="Book your PT session"
+           width="450" height="600">
+      <p><i>Image source:</i> Created with DALL·E 3 (2025).</p>
+    </main>
+
+    <footer>
+      <p>© 2025 Momentum Mobile PT | Educational project. Images by DALL·E 3.</p>
+    </footer>
+  </body>
+</html>
